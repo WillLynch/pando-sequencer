@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pando_StandalonePlugin", "Orchard_StandalonePlugin.vcxproj", "{B26A864B-4603-9C20-9A07-DC92D2284378}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC} = {17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pando_VST3", "Orchard_VST3.vcxproj", "{62DFBD75-9098-D48C-CB0B-BA5147B5F771}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC} = {17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pando_SharedCode", "Orchard_SharedCode.vcxproj", "{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26A864B-4603-9C20-9A07-DC92D2284378}.Debug|x64.ActiveCfg = Debug|x64
+		{B26A864B-4603-9C20-9A07-DC92D2284378}.Debug|x64.Build.0 = Debug|x64
+		{B26A864B-4603-9C20-9A07-DC92D2284378}.Release|x64.ActiveCfg = Release|x64
+		{B26A864B-4603-9C20-9A07-DC92D2284378}.Release|x64.Build.0 = Release|x64
+		{62DFBD75-9098-D48C-CB0B-BA5147B5F771}.Debug|x64.ActiveCfg = Debug|x64
+		{62DFBD75-9098-D48C-CB0B-BA5147B5F771}.Debug|x64.Build.0 = Debug|x64
+		{62DFBD75-9098-D48C-CB0B-BA5147B5F771}.Release|x64.ActiveCfg = Release|x64
+		{62DFBD75-9098-D48C-CB0B-BA5147B5F771}.Release|x64.Build.0 = Release|x64
+		{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}.Debug|x64.ActiveCfg = Debug|x64
+		{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}.Debug|x64.Build.0 = Debug|x64
+		{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}.Release|x64.ActiveCfg = Release|x64
+		{17DDD7EE-9FB1-D3C9-04CB-19F1A8153ADC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76C00922-BC06-4C9A-AD15-FF7D7E18E06A}
+	EndGlobalSection
+EndGlobal

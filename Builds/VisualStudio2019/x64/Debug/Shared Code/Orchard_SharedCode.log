@@ -1,0 +1,26 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug\Shared Code\) contains files shared from another project (Orchard_SharedCode.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MarkovChain.cpp
+D:\PandoSequencer\Source\MarkovChain.cpp(16,27): warning C4267:  'return': conversion from 'size_t' to 'int', possible loss of data
+D:\PandoSequencer\Source\MarkovChain.cpp(49,37): warning C4458:  declaration of 'lastNoteValue' hides class member
+D:\PandoSequencer\Source\MarkovChain.h(25,6): message :  see declaration of 'MarkovChain::lastNoteValue'
+D:\PandoSequencer\Source\MarkovChain.cpp(52,53): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\PandoSequencer\Source\MarkovChain.cpp(91,48): warning C4100:  'message': unreferenced formal parameter
+  Note.cpp
+  PluginProcessor.cpp
+  PluginEditor.cpp
+D:\PandoSequencer\Source\PluginProcessor.cpp(85,50): warning C4100:  'index': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginProcessor.cpp(89,55): warning C4100:  'index': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginProcessor.cpp(94,71): warning C4100:  'newName': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginProcessor.cpp(94,50): warning C4100:  'index': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginProcessor.cpp(108,9): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+D:\PandoSequencer\Source\PluginProcessor.cpp(165,21): warning C4458:  declaration of 'currentNote' hides class member
+D:\PandoSequencer\Source\PluginProcessor.h(73,6): message :  see declaration of 'PandoAudioProcessor::currentNote' (compiling source file ..\..\Source\PluginProcessor.cpp)
+D:\PandoSequencer\Source\PluginProcessor.cpp(196,61): warning C4100:  'destData': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginProcessor.cpp(203,70): warning C4100:  'sizeInBytes': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginProcessor.cpp(203,60): warning C4100:  'data': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginEditor.cpp(87,60): warning C4100:  'button': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginEditor.cpp(92,60): warning C4100:  'button': unreferenced formal parameter
+D:\PandoSequencer\Source\PluginEditor.cpp(100,32): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+D:\PandoSequencer\Source\PluginEditor.cpp(107,40): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+D:\PandoSequencer\Source\PluginEditor.cpp(113,20): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+  Orchard_SharedCode.vcxproj -> D:\PandoSequencer\Builds\VisualStudio2019\x64\Debug\Shared Code\Orchard.lib
